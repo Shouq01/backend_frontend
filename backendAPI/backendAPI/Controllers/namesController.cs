@@ -8,10 +8,11 @@ public class namesController : ControllerBase
 {
     //Initiate names list to be used and returned
     namesList[] names = new namesList[]{
-         new namesList { name = "Shouq", randomGif="<iframe src=\"https://giphy.com/embed/ICOgUNjpvO0PC\" width=\"480\" height=\"359\" frameBorder=\"0\" class=\"giphy-embed\" allowFullScreen></iframe><p><a href=\"https://giphy.com/gifs/cat-humour-funny-ICOgUNjpvO0PC\">via GIPHY</a></p>" },
-         new namesList { name = "Abdulrahman", randomGif=" " },
-         new namesList { name = "Hana", randomGif=" " },
-         new namesList { name = "Afnan", randomGif=" " }
+         new namesList { name = "Shouq", rule="Product Quality Analyst"},
+         new namesList { name = "Abdulrahman", rule="Teacher and Backend Engineer"},
+         new namesList { name = "Hana", rule="Developer" },
+         new namesList { name = "Afnan", rule="Full stack developer" }
+
 
       };
 
